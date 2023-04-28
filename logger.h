@@ -15,4 +15,6 @@ typedef enum Log_Level {
 #define LOG_TRACE(message) log_trace(__FILE__, __LINE__, message)
 #endif
 
+#define TRACE(message) printf( __FILE__ " :: " message)
+
 #endif //LOGGER_H

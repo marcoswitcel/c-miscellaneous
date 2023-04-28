@@ -29,6 +29,6 @@ void log_trace(const char *file_name, int line, const char *message)
     char formated_date_buff[20];
     strftime(formated_date_buff, 20, "%Y-%m-%d %H:%M:%S", localtime(&now));
 
-    printf("%s %s src/%s:%d :: %s", formated_date_buff, log_level_names[TRACE], file_name, line, message);
+    printf("%s %s %s:%d :: %s", formated_date_buff, log_level_names[TRACE], file_name, line, message);
     printf("\n");
 }

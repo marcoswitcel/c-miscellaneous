@@ -5,6 +5,9 @@
 
 int main(void)
 {
-  log_info("Mensagem");
+  log_info("Mensagens");
+  LOG_TRACE("De onde?");
+  LOG_TRACE("Que horas?");
+  LOG_TRACE("Que dia?");
   return EXIT_SUCCESS;
 }

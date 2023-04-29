@@ -5,6 +5,7 @@
 #include <unistd.h>
 
 #include "./logger.c"
+#include "./dev-utilities.c"
 
 typedef bool Callable(void *data);
 
@@ -43,6 +44,8 @@ int main(void)
   int counter = 5;
   bool done = false;
   Runnable_Task task = { .callable = printer, .type = PRINTER, .data = &counter };
+
+  trace_me("Teste do tracme");
 
   while (true)
   {

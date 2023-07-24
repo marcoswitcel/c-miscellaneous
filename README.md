@@ -11,3 +11,4 @@ Os links são de páginas, fóruns, repositórios e outros materiais que analise
 * https://github.com/rxi/log.c
 * https://stackoverflow.com/questions/6508461/logging-library-for-c
 * https://stackoverflow.com/questions/3053999/c-convert-time-t-to-string-with-format-yyyy-mm-dd-hhmmss
+* [https://www.ibm.com/docs/en/i/7.2?topic=declarations-flexible-array-members](https://www.ibm.com/docs/en/i/7.2?topic=declarations-flexible-array-members)

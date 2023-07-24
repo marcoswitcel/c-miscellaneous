@@ -5,6 +5,7 @@
 #include <unistd.h>
 
 #include "./logger.c"
+#include "./array.c"
 #include "./dev-utilities.c"
 
 typedef bool Callable(void *data);
